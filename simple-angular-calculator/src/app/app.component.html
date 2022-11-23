@@ -1,0 +1,87 @@
+<h1>Bootcamp 5</h1>
+<h2>Edibo</h2>
+<table>
+  <tr>
+    <td colspan="4"> {{ buffer }} </td>
+  </tr>
+
+  <tr>
+    <td>
+      <button (click)="addNumber(7)">7</button>
+    </td>
+
+    <td>
+      <button (click)="addNumber(8)">8</button>
+    </td>
+
+    <td>
+      <button (click)="addNumber(9)">9</button>
+    </td>
+
+    <td>
+      <button (click)="resultado()">=</button>
+    </td>
+
+  </tr>
+
+  
+  <tr>
+    <td>
+      <button (click)="addNumber(4)">4</button>
+    </td>
+
+    <td>
+      <button (click)="addNumber(5)">5</button>
+    </td>
+
+    <td>
+      <button (click)="addNumber(6)">6</button>
+    </td>
+
+    <td>
+      <button (click)="operacion(3)">x</button>
+    </td>
+
+  </tr>
+
+
+  <tr>
+    <td>
+      <button (click)="addNumber(1)">1</button>
+    </td>
+
+    <td>
+      <button (click)="addNumber(2)">2</button>
+    </td>
+
+    <td>
+      <button (click)="addNumber(3)">3</button>
+    </td>
+
+    <td>
+      <button (click)="operacion(1)">+</button>
+    </td>
+  </tr>
+
+
+  <tr>
+    <td>
+      <button (click)="clear()">Clear</button>
+    </td>
+
+    <td>
+      <button (click)="addNumber(0)">0</button>
+    </td>
+
+    <td>
+      
+    </td>
+
+    <td>
+      <button (click)="operacion(2)">-</button>
+    </td>
+  </tr>
+</table>
+
+
+<router-outlet></router-outlet>
